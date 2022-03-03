@@ -100,7 +100,7 @@ nav ul li{
     position:absolute;
     left:21vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top:-10px;
+    margin-top:-13px;
 }
 .masterSongName{
     /* position: fixed; */
@@ -130,7 +130,7 @@ nav ul li{
         width: 15rem;
     }
     .songInfo{
-        margin-top: -13px;
+        margin-top: -15px;
     }
 }
 
@@ -142,13 +142,13 @@ nav ul li{
 }
 @media only screen and (max-width: 350px) {
     .songInfo{
-        margin-left:-75px;
+        margin-left:-80px;
     }
     
 }
 @media only screen and (max-width: 401px) {
     .songInfo{
         margin-left:-100px;
-        margin-top:-13px ;
+        margin-top:-15px ;
     }
 }
