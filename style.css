@@ -130,13 +130,13 @@ nav ul li{
         width: 15rem;
     }
     .songInfo{
-        margin-top: -10px;
+        margin-top: -13px;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .songInfo{
-        margin-left:-90px;
+        margin-left:-95px;
     }
     
 }
@@ -148,7 +148,7 @@ nav ul li{
 }
 @media only screen and (max-width: 401px) {
     .songInfo{
-        margin-left:-95px;
-        margin-top:-10px ;
+        margin-left:-100px;
+        margin-top:-13px ;
     }
 }
