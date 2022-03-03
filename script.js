@@ -6,13 +6,13 @@ let gif=document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItems=Array.from(document.getElementsByClassName('songItems'));
 let music=[
-    {songName:"Tere te", filePath: "music/1.mp3",coverPath:"cover/size_l.jpg" },
-    {songName:"All Aces", filePath: "music/2.mp3",coverPath:"cover/prem.jpg"},
-    {songName:"Desire", filePath: "music/3.mp3",coverPath:"cover/size_l.jpg"},
-    {songName:"Excuses", filePath: "music/4.mp3",coverPath:"cover/Excuses.jpg"},
-    {songName:"Majhail", filePath: "music/5.mp3",coverPath:"cover/Majhail.jpg"},
-    {songName:"Space", filePath: "music/6.mp3",coverPath:"cover/size_l.jpg"},
-    {songName:"Takeover", filePath: "music/7.mp3",coverPath:"cover/Takeover.jpg"},
+    {songName:"Tere te", filePath: "a.mp3",coverPath:"cover/size_l.jpg" },
+    {songName:"All Aces", filePath: "a.mp3",coverPath:"cover/prem.jpg"},
+    {songName:"Desire", filePath: "a.mp3",coverPath:"cover/size_l.jpg"},
+    {songName:"Excuses", filePath: "a.mp3",coverPath:"cover/Excuses.jpg"},
+    {songName:"Majhail", filePath: "a.mp3",coverPath:"cover/Majhail.jpg"},
+    {songName:"Space", filePath: "a.mp3",coverPath:"cover/size_l.jpg"},
+    {songName:"Takeover", filePath: "a.mp3",coverPath:"cover/Takeover.jpg"},
 ]
 
 // console.log(songItems);
