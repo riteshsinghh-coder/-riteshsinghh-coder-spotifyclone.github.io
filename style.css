@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins:wght@300;400;500;600;700;800;900&family=Titillium+Web:wght@200&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Poppins:wght@300;400;500;600;700;800;900&family=Titillium+Web:wght@200&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    height:65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.brand img{
+    width:44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    align-items: center; 
+}
+nav ul li{
+    padding: 0 12px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.container{
+    min-height:72vh;
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin:23px auto;
+    width:70%;
+    border-radius:12px;
+    padding: 34px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+#myProgressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top:15px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItems{
+    height: 40px;
+    display: flex;
+    background-color:white;
+    width: 20rem;
+    margin:13px 0;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-radius: 54px;
+}
+.songItems img{
+    width:35px;
+    margin: 0 23px;
+    border-radius:94px; 
+
+
+}
+.timestamp{
+    margin: 0 23px;
+    
+}
+.timestamp{
+    cursor: pointer;
+}
+.song_item_container{
+    margin-top: 74px;
+
+
+}
+
+.songInfo{
+    position:absolute;
+    left:21vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -25px;
+    
+}
+.masterSongName{
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+ @media only screen and (max-width: 1100px) {
+    body {
+      background-color:greenyellow;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .songItems{
+        width: 18rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container{
+        background-image: url(ap_dhillion.jpg);
+    
+    }
+}
+@media only screen and (max-width: 500px) {
+    .songItems{
+        width: 15rem;
+    }
+    .songInfo{
+        margin-top: -25px;
+        /* margin-left:-0px; */
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .songInfo{
+        margin-left:-70px;
+        margin-top: -25px;
+    }
+    
+}
+@media only screen and (max-width: 350px) {
+    .songInfo{
+        margin-left:-20px;
+
+        margin-top: -25px;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .songInfo{
+        margin-left:-70px;
+        margin-top:-25px ;
+    }
+} 
+@media only screen and (max-width: 550px) {
+    .songInfo{
+        margin-left:-70px;
+        margin-top:-25px ;
+    }
+} 
+@media only screen and (max-width: 330px) {
+    .songInfo{
+        margin-left:-85px;
+        margin-top:-25px ;
+    }
+} 
